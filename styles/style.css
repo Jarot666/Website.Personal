@@ -1,0 +1,721 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #000000;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 40px;    
+    float: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+}
+
+header img{
+    float: left;
+}
+
+header img {
+    width: 100%;
+    margin: auto
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    line-height: 60px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #000000;
+    z-index: 1;
+    border-bottom:1px solid crimson ;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: right;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: crimson;
+    transition: all .3s ease-in-out; 
+}
+
+a.tbl-biru {
+    background: crimson;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: rgba(220, 20, 60, 0.692);
+    color: white;
+    text-decoration: none;
+}
+
+a.tbl-merah {
+    background: rgba(220, 20, 60, 0.692);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-merah:hover {
+    background: crimson;
+    text-decoration: none;
+    transition: all .3s ease-in-out; 
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+section div {
+    margin-left: 20px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800px;
+    font-size: 45px;
+    color: crimson;
+    width: 100%;
+    line-height: 50px;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    color: #ffffff;
+}
+
+div img {
+    width: 400px;
+    height: auto;
+}
+
+.div p a {
+    width: 100%;
+    display: flex;
+    line-height: 60px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    color: white;
+    background: #000000;
+}
+
+section video {
+    width: 500px;
+    height: auto;
+}
+
+/* story Arus */
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: calibri;
+    font-weight: 800px;
+    font-size: 45px;
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.story-content p{
+    margin-bottom: 15px;
+    text-indent: 20px;
+    color: #000000;
+    font-family: calibri;  
+}
+
+article p{
+    color: crimson;
+}
+
+h3 {
+    text-align: center;
+    margin: auto;
+}
+
+a.tbl-halkanan {
+    background: crimson;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-halkanan:hover {
+    background: rgba(220, 20, 60, 0.692);
+    text-decoration: none;
+    transition: all .3s ease-in-out; 
+}
+
+.story p a {
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    font-family: arial;
+}
+
+/* Hal 2 */
+
+a.tbl-halkiri {
+    background: crimson;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-halkiri:hover {
+    background: rgba(220, 20, 60, 0.692);
+    text-decoration: none;
+    transition: all .3s ease-in-out; 
+}
+
+.story .kiri{
+    float: left;
+    margin-left: 50px;
+    margin-top: -30px;
+}
+
+/* start Arus */
+
+section img {
+    width: 250px;
+    height: fit-content;
+    margin-top: 20px;
+}
+
+.colom .deskrips {
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff9d;
+    margin-top: -10px;
+}
+
+.colom h2 {
+    font-family: monospace;
+    font-weight: 800px;
+    font-size: 45px;
+    color: crimson;
+    width: 100%;
+    line-height: 50px;
+    margin-top: 10px;
+}
+
+.colom p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.colom table {
+    margin-top: -20px;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.colom h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    width: 100%;
+    line-height: 50px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.colom .tumbuh {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    width: 100%;
+    line-height: 50px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+a.tbl-mulai {
+    background: rgba(220, 20, 60, 0.692);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-mulai:hover {
+    background: crimson;
+    text-decoration: none;
+    transition: all .3s ease-in-out; 
+}
+
+/* Baca */
+
+.buku {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.books {
+    width: 20%;
+    margin: 0 auto;
+
+}
+
+.books img {
+    width: 80%;
+}
+
+.books p {
+    font-family: arial;
+    font-size: 15px;
+    text-align: left;
+    color: #ffffff;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+.books h3 a {
+    color: crimson;
+    font-family: papyrus;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: -50px;
+}
+
+.books .deskrips {
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff9d;
+    margin-top: -5px;
+}
+
+.nyelam {
+   
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.nyelam .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: candara;
+    color: #ffffff;
+}
+
+.nyelam h2 {
+    font-family: impact;
+    font-weight: 800px;
+    font-size: 45px;
+    color: crimson;
+    width: 100%;
+    line-height: 50px;
+}
+
+.nyelam p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    color: #ffffff;
+    font-family: candara;
+}
+
+h3 a.tbl-book {
+    color: crimson;
+    font-weight: bold;
+    text-align: right;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+a.tbl-book:hover {
+    color: rgb(255, 111, 140);
+    transition: all .3s ease-in-out; 
+}
+
+/** Tentang Penulis **/
+
+.paragraf {
+    text-indent: 50px;
+}
+
+.kolom-muu {
+    margin-top: 20px;
+}
+
+.kolom-muu .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+.kolom-mu {
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+.kolom-mu2 {
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
+
+.kolom-mu .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+.hr-mu {
+    border: 0;
+    height: 1px;
+    background-color: crimson;
+    margin: 50px 50px;
+}
+
+.me {
+    width: 50%;
+    height: auto;
+}
+
+.deskripsi-me{
+    font-family: monospace;
+    font-size: 20px;
+    text-indent: 30px;
+}
+
+.h2-me {
+    font-family: fantasy;
+    color: #ffffff;
+}
+
+.h2-me span {
+    color: crimson;
+}
+
+
+
+.kolom-hero {
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.form {
+    color: white;
+    font-size: 15px;
+    margin: 10px 10px 10px 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.regis {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+
+legend h1 {
+    font-family: papyrus;
+    color: white  ;
+}
+
+fieldset {
+    width: 50%;
+    background-color: crimson;
+    border-color: white;
+}
+
+.simpan {
+    background-color: black;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px 10px 10px 10px;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.submit {
+    margin-top: 50px;
+}
+
+/** Lirik Lagu **/
+
+.h1-nina {
+    font-family: papyrus;
+    color: #ffffff;
+}
+
+.nina {
+    text-align: center;
+
+}
+
+/** Gallery **/
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+
+.galer {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.pict {
+    margin-top: 20px;
+    margin-left: 50px;
+    height: fit-content;
+}
+
+a.tbl-mona {
+    background: rgba(220, 20, 60, 0.692);
+    border-radius: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-mona:hover {
+    background: crimson;
+    text-decoration: none;
+    transition: all .3s ease-in-out; 
+}
+
+/** contact **/
+
+#contact {
+    background: #3a3a3a;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.footer-section h3 {
+    font-family: Impact;
+    text-align: left;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: crimson;
+    width: 100%;
+    line-height: 50px;
+}
+
+.footer p {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#copyright {
+    color: #ffffff ;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+/** daftar isi **/
+
+.daftar {
+    color: #ffffff;
+    background-color: crimson;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    font-family: monospace;
+    font-weight: 500px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.isi li {
+    margin: 10px 0px 10px 10px;
+    padding: 10px 0px 10px 0px;
+    color: #ffffff;
+}
+
+.isi li a{
+    color: #ffffff;
+    font-family: arial;
+}
+
+.lagu li {
+    margin: 10px 0px 10px 10px;
+    padding: 10px 0px 10px 0px;
+    color: #ffffff;
+}
+
+.lagu li a{
+    color: #ffffff;
+    font-family: arial;
+}
+
+a.tombol {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tombol:hover {
+    color: crimson;
+    text-decoration: none;
+    transition: all .3s ease-in-out; 
+}
+
+a.kembali {
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.kembali:hover {
+    color: yellow;
+    text-decoration: none;
+    transition: all .3s ease-in-out; 
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section video {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .books {
+        width: 50%;
+    }
+}
